@@ -62,5 +62,8 @@ It is surprising how low the BLEU score for adding is.
 
 # Changes
 
-joeynmt-toy-models: https://github.com/bernai/joeynmt-toy-models/commit/bbace70b9930387536083eefd0d7450510678b5e
-joeynmt: https://github.com/bernai/joeynmt/commit/fa3b0494fdc3e98beb5969acbcf3c21e25c40467
+joeynmt-toy-models: 
+https://github.com/bernai/joeynmt-toy-models/commit/bbace70b9930387536083eefd0d7450510678b5e
+
+joeynmt: 
+https://github.com/bernai/joeynmt/commit/fa3b0494fdc3e98beb5969acbcf3c21e25c40467
