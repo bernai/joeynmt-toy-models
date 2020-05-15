@@ -37,9 +37,9 @@ training:
     logging_freq: 100
     eval_metric: "bleu"
     model_dir: "models/rnn_wmt16_deen"
-    overwrite: False
+    overwrite: True
     shuffle: True
-    use_cuda: False
+    use_cuda: True
     max_output_length: 100
     print_valid_sents: [0, 1, 2, 3, 4]
     label_smoothing: 0.1

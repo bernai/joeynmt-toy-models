@@ -15,7 +15,7 @@ data, train and evaluate models.
 
 Clone this repository in the desired place and check out the correct branch:
 
-    git clone https://github.com/bricksdont/joeynmt-toy-models
+    git clone https://github.com/bernai/joeynmt-toy-models
     cd joeynmt-toy-models
     checkout ex4
 
@@ -29,20 +29,33 @@ Download and install required software:
 
     ./scripts/download_install_packages.sh
 
-Download and split data:
 
-    ./scripts/download_split_data.sh
+Use joeynmt from this repository:
 
-Preprocess data:
+    git clone https://github.com/bernai/joeynmt
+    cd joeynmt
+    git checkout factors_changed
 
-    ./scripts/preprocess.sh
-
-Then finally train a model:
+If you want to train something else than the baseline model, change train.sh in joeynmt-toy-models. Also, check the config files.
+By default, CUDA is enabled and embedding size is 512. Then finally train a model:
 
     ./scripts/train.sh
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
-Evaluate a trained model with
+Evaluate a trained model with:
 
     ./scripts/evaluate.sh
+    
+To evaluate the models with factored translation: 
+In evaluate.sh, change the model name and use the command with test.combined.
+# Results
+
+| model       | BLEU |
+|-------------|------|
+| baseline    | 8.8  |
+| concatenate | 5.6  |
+| add         | 1.2  |
+
+The baseline model still seems to get the best BLEU score. I used the same embedding size for every model (512). 
+It is surprising how low the BLEU score for adding is.
