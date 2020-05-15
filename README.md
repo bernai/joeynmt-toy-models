@@ -25,9 +25,10 @@ Create a new virtualenv that uses Python 3. Please make sure to run this command
 
 **Important**: Then activate the env by executing the `source` command that is output by the shell script above.
 
-Download and install required software:
+Download and install required software and data:
 
     ./scripts/download_install_packages.sh
+    ./scripts/download_preprocessed_data.sh
 
 
 Use joeynmt from this repository:
