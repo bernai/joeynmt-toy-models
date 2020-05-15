@@ -59,3 +59,8 @@ In evaluate.sh, change the model name and use the command with test.combined.
 
 The baseline model still seems to get the best BLEU score. I used the same embedding size for every model (512). 
 It is surprising how low the BLEU score for adding is.
+
+# Changes
+
+joeynmt-toy-models: https://github.com/bernai/joeynmt-toy-models/commit/bbace70b9930387536083eefd0d7450510678b5e
+joeynmt: https://github.com/bernai/joeynmt/commit/fa3b0494fdc3e98beb5969acbcf3c21e25c40467
