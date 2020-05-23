@@ -136,4 +136,4 @@ In the future I would choose either beam size 5, as it is fast and gives a good 
 It would be interesting to see what results we get regarding beam sizes with different data.
 
 ![Graph Beam Size]
-(https://github.com/bernai/joeynmt-toy-models/blob/ex5/graph/graph.png)
+(https://raw.githubusercontent.com/bernai/joeynmt-toy-models/ex5/graph/graph.png)
