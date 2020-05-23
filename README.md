@@ -135,5 +135,4 @@ but in total the score stays approximately the same. We can take a look at our e
 In the future I would choose either beam size 5, as it is fast and gives a good score, or 10, because it seems to be getting the best score (would need to see how it works with the data I get).  
 It would be interesting to see what results we get regarding beam sizes with different data.
 
-![Graph Beam Size]
-(https://raw.githubusercontent.com/bernai/joeynmt-toy-models/ex5/graph/graph.png)
+![Graph Beam Size](graph/graph.png)
